@@ -57,7 +57,7 @@ def paper_ch():
     else:
         pary = tk.Label(root, text="Ничья!")
         pary.grid(row=8, column=12)
-paper = tk.Button(root,text = "Бумага>", command=paper_ch)
+paper = tk.Button(root,text = "Бумага", command=paper_ch)
 paper.grid(row=5,column=5)
 
 def scissors_ch():
